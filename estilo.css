@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Times New Roman', serif;
+}
+
+.head{
+    display: flex;
+    background-image: url(./img/background.png);
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.head h1{
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.opcoes{
+    height: 2.8rem;
+    background-color: mediumpurple; 
+   
+}
+
+.opcoes ul{
+        display: flex;
+        padding: 0;
+        justify-content: space-around;
+        align-items: center;
+        height: 2.5rem;
+        font-size: 1.8rem;
+        list-style-type: none;
+}
+
+.opcoes ul li a{
+    color:#fff;
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+}
+
+.texto01{
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+.texto02{
+    padding: 15px;
+    font-size: 1.2rem;
+   
+}
+
+
+
+
