@@ -3,6 +3,7 @@
     padding: 0;
     outline: 0;
     font-family: 'Times New Roman', serif;
+    box-sizing: border-box;
 }
 
 .head{
@@ -38,18 +39,57 @@
 
 .opcoes ul li a{
     color:#fff;
-    text-shadow: 2px 2px black;
+    
     text-decoration: none;
 }
 
 .texto01{
     padding: 15px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
+main{
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(100vh - 13.6rem);
+}
+main div{
+    max-width: 75%;
+   ;
+}
 .texto02{
     padding: 15px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+   
+}
+
+.texto02 ol li{
+    list-style-type: upper-roman;
+
+}
+
+.texto03{
+    padding: 16px;
+    font-size: 1.3rem;
+
+}
+
+.texto03 ul li{
+    list-style-type: square;
+}
+
+footer{
+    height: 2.8rem;
+    background-color: mediumpurple; 
+   
+}
+
+footer p{
+    font-size: 1.6rem;
+    color: #fff;
+   
    
 }
 
