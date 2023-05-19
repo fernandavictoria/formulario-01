@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    --b: black;
+}
+
 .head{
     display: flex;
     background-image: url(img/banner-home-informatica-1163x500.jpg);
@@ -49,16 +53,21 @@
 }
 
 main{
-    padding-top: 4rem;
+    
     display: flex;
-    align-items: center;
     flex-direction: column;
     min-height: calc(100vh - 13.6rem);
 }
+
+.main{
+    padding-top: 4rem;
+    align-items: center;
+}
+
 main div{
     max-width: 75%;
-   ;
 }
+
 .texto02{
     padding: 15px;
     font-size: 1.3rem;
@@ -93,6 +102,97 @@ footer p{
    
    
 }
+
+.tabela{
+    align-items: center;
+}
+
+.tabela table{
+    border-collapse: collapse;
+    width: 70%;
+    height:70%;
+    font-size: larger;
+}
+
+.tabela table tr td, .tabela table tr th{
+    border: 0.1rem solid black;
+    margin: 0rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.tabelas .itens{
+    text-align: left;
+    padding: 1rem;
+}
+
+.questoes{
+    height: 100vh;
+}
+
+.faq{
+    flex-direction: column;
+}
+
+.questoes, .respostas li{
+    margin: 7%;
+    padding: 7%;
+    font-size: larger;
+    color: var(--b)
+}
+
+.questoes ol li a{
+   text-decoration: none;
+   font-size: larger;
+   color: var(--b);
+}
+
+.respostas li a{
+    text-decoration: none;
+    color: var(--b);
+} 
+
+.cnt{
+    align-items: center;
+}
+
+.cnt section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cnt section fieldset{
+    width: 80%;
+    height: 80%;
+}
+
+.cnt section fieldset form div{
+    padding: 1rem;
+}
+
+.cnt section fieldset form div label{
+    font-size: larger;
+}
+
+.cnt section fieldset legend{
+    font-size: larger;
+}
+
+.radio{
+    display: flex;
+    flex-direction: row;
+}
+
+.radio{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
 
 
 
